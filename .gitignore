@@ -1,4 +1,29 @@
+# Dependencias descargadas por npm
+node_modules/
+
+# Variables de entorno y llaves secretas
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de registro y logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
 *.log
-*.bak
-indicaciones.info
+
+# Carpetas de compilación o build (si usas TypeScript o bundlers)
+dist/
+build/
+.next/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
